@@ -1,0 +1,40 @@
+.wrap{
+  display:flex;
+  flex-direction: column;
+}
+
+.img_item{
+  width:50%;
+  margin:10px auto;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.tit_item{
+  text-align: center;
+  color:black;
+  overflow: hidden;
+}
+.txt_info{
+  text-align: center;
+  color:coral;
+  font-weight: bold;
+}
+.num_price{
+  text-align: center;
+  font-weight: bold;
+}
+
+.loader{
+  width:100vw;
+  height:80vh;
+  display:flex;
+  align-items: center;
+}
+
+.img_item:hover{
+  transform: scale(1.08);
+  transition:0.2s all ease-in;
+}
+
+
